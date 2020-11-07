@@ -53,8 +53,7 @@
     
 <meta name="generator" content="Hexo 4.2.1"></head>
 
-<body class="max-width mx-auto px3 ltr">
-    
+<body class="max-width mx-auto px3 ltr">    
       <div id="header-post">
   <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
   <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
@@ -201,11 +200,12 @@ Hello World!!
  *******
   *****
    ***
-    *</code></pre></li>
+    *
+</code></pre></li>
 </ol>
 <p>(内容参考：</p>
 <ul>
-<li><p><a href="https://zh.moegirl.org/你好，世界" target="_blank" rel="noopener">https://zh.moegirl.org/你好，世界</a>!</p>
+<li><p><a href="https://zh.moegirl.org/你好，世界!" target="_blank" rel="noopener">https://zh.moegirl.org/你好，世界!</a></p>
 </li>
 <li><p><a href="https://music.163.com/#/song?id=1300936430" target="_blank" rel="noopener">https://music.163.com/#/song?id=1300936430</a></p>
 </li>
@@ -347,5 +347,20 @@ Hello World!!
 <!-- Disqus Comments -->
 
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/miku.model.json"},"log":false});</script></body>
 </html>
