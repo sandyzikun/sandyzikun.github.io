@@ -1763,7 +1763,7 @@ kbd {
   border-color: #556c92;
   background-color: #f8f4ef;
 }
-@media screen and (min-width: 100000px /*900px*/) {
+@media screen and (min-width: 900px) {
   .content .post .content a,
   #nav a,
   #writing a,
