@@ -1864,3 +1864,29 @@ kbd {
     height: 0;
   }
 }
+.aplayer {
+  background: #f8f4ef !important;
+  box-shadow: 0 2px 2px 0 rgba(54,60,84,0.28), 0 1px 5px 0 rgba(54,60,84,0.49) !important;
+}
+.aplayer .aplayer-pic .aplayer-button {
+  border-color: #f8f4ef !important;
+}
+.aplayer .aplayer-pic .aplayer-button svg path {
+  fill: #f8f4ef !important;
+}
+.aplayer .aplayer-info .aplayer-music span {
+  color: #4f5f8a !important;
+}
+.aplayer .aplayer-info .aplayer-lrc::before,
+.aplayer .aplayer-info .aplayer-lrc::after {
+  background-image: none !important;
+}
+.aplayer .aplayer-info .aplayer-lrc .aplayer-lrc-contetns p {
+  color: #7e819b !important;
+}
+.aplayer .aplayer-info .aplayer-controller .aplayer-time span {
+  color: #363c54 !important;
+}
+.aplayer .aplayer-info .aplayer-controller .aplayer-time button svg path {
+  fill: #7e819b !important;
+}
