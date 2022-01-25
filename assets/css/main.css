@@ -43,6 +43,7 @@
 	--color-link-hover: #2aa198;
     --color-link-visited: #6c71c4;
     --color-link-underline-56: rgba(57, 197, 187, .56); /*#39c5bb == desaturate(#2aa198 + 16.6124%, 5%)*/
+    --color-border: #586e75;
 }
 
 @font-face {
@@ -75,7 +76,19 @@ article a {
     left: 0;
     right: auto;
     width: 100%;
+} a.pic {
+    border-bottom-width: 0;
+} a.pic::after {
+    height: 0;
 }
+
+/*
+#main {
+    border: 1.28px solid var(--color-border);
+    border-width: 0 0 2.56px 2.56px;
+    box-shadow: -1.28px 1.28px 3.9px var(--color-0x00) !important;
+}
+*/
 
 /*
 	Astral by HTML5 UP
