@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>凪坤 | sandyzikun</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#about" class="icon solid fa-file-alt"><span>About</span></a>
+						<a href="#links" class="icon solid fa-link"><span>Links</span></a>
+						<a href="https://github.com/sandyzikun/" target="_blank" class="icon brands fa-github-alt"><span>GitHub</span></a>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>凪坤sandyzikun</h1>
+									<p>
+										造訪我的<a target="_blank" href="https://sandyzikun.github.io/blog/">Blog</a>
+									</p>
+								</header>
+								<a href="#about" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>About me</span></span>
+									<img src="images/welt-edenstar.jpeg" alt="" />
+								</a>
+							</article>
+
+						<!-- About -->
+							<article id="about" class="panel">
+								<header>
+									<h2>About</h2>
+								</header>
+								<p>
+									An ordinary fan of Hatsune Miku.
+									<br />
+									一個普通的葱厨。
+									<br />
+									Something strange may appears on this page, never take them seriously.
+									More info is on the about-page of my blog.
+									<br />
+									這個頁面上會放一些奇怪的東西，有些別太當真，詳細的請參見我的blog上的about頁面。
+									<br />
+									Thanks.
+									<br />
+									感謝合作。
+								</p>
+								<!--
+								<p>
+									<h3>Leo/need, 最近常聽的一個 Virtual Band.</h3>
+								</p>
+								<section>
+									<div class="row" id="ln-cm">
+										<div class="col-4 col-6-medium col-12-small" v-for="item in items">
+											<a :href="item.link_href" class="image fit">
+												<img :src="item.image_source" alt="" />
+											</a>
+										</div>
+									</div><br />
+								</section>
+								-->
+							</article>
+
+						<!-- Links -->
+							<article id="links" class="panel">
+								<header>
+									<h2>Links</h2>
+								</header>
+								<p>
+									<h3>Contact Me</h3>
+									<ol id="vfor-socialink">
+										<li v-for="(item, key) in items">{{ key }}
+											<a target="_blank" :href="item.url">@{{ item.username }}</a>
+										</li>
+									</ol>
+									<h3>My Friends</h3>
+									<ol id="vfor-friendslink">
+										<li v-for="(item, key) in items">
+											<a target="_blank" :href="item.url">{{ key }}</a>:
+											{{ item.desc.en }}.
+											({{ item.desc.zh }})
+										</li>
+									</ol>
+								</p>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; Untitled.</li>
+							<li>Design: <a href="http://html5up.net/">HTML5 UP</a>.Astral</li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/lib/vue-3.2.11.global.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<!--<script src="assets/js/init-vue/lncm.js"></script>-->
+			<script src="assets/js/init-vue/links.js"></script>
+	</body>
+</html>
