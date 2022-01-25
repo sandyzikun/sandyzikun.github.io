@@ -61,20 +61,6 @@
 									<br />
 									感謝合作。
 								</p>
-								<!--
-								<p>
-									<h3>Leo/need, 最近常聽的一個 Virtual Band.</h3>
-								</p>
-								<section>
-									<div class="row" id="ln-cm">
-										<div class="col-4 col-6-medium col-12-small" v-for="item in items">
-											<a :href="item.link_href" class="image fit">
-												<img :src="item.image_source" alt="" />
-											</a>
-										</div>
-									</div><br />
-								</section>
-								-->
 							</article>
 
 						<!-- Links -->
@@ -84,19 +70,9 @@
 								</header>
 								<p>
 									<h3>Contact Me</h3>
-									<ol id="vfor-socialink">
-										<li v-for="(item, key) in items">{{ key }}
-											<a target="_blank" :href="item.url">@{{ item.username }}</a>
-										</li>
-									</ol>
+									<ol id="vfor-socialink"></ol>
 									<h3>My Friends</h3>
-									<ol id="vfor-friendslink">
-										<li v-for="(item, key) in items">
-											<a target="_blank" :href="item.url">{{ key }}</a>:
-											{{ item.desc.en }}.
-											({{ item.desc.zh }})
-										</li>
-									</ol>
+									<ol id="vfor-friendslink"></ol>
 								</p>
 							</article>
 
@@ -116,10 +92,12 @@
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/lib/vue-3.2.11.global.min.js"></script>
+			<!--<script src="assets/js/lib/vue-3.2.11.global.min.js"></script>-->
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<!--<script src="assets/js/init-vue/lncm.js"></script>-->
-			<script src="assets/js/init-vue/links.js"></script>
+			<script src="assets/js/init/_data/linksdict.js"></script>
+			<!--<script src="assets/js/init/vue/lncm.js"></script>-->
+			<!--<script src="assets/js/init/vue/links.js"></script>-->
+			<script src="assets/js/init/jquery/links.js"></script>
 	</body>
 </html>

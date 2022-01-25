@@ -55,16 +55,3 @@ var lncm_works = [
         ],
     },
 ];
-var lncm_prefixes = [ "logo", "musicby", "prod", "time" ];
-var lncm_items = [];
-for (let k = 0; k < lncm_works.length; k++)
-    for (let l = 0; l < lncm_prefixes.length; l++)
-        lncm_items[k * lncm_prefixes.length + l] = {
-            image_source: "ln-cm/" + lncm_prefixes[l] + "-" + lncm_works[k].num + ".jpeg",
-            link_href: "https://www.bilibili.com/av" + lncm_works[k].avids[l][0] + "/?p=" + lncm_works[k].avids[l][1],
-        };
-var lncm_app = Vue.createApp({
-    data() {return {
-        items: lncm_items,
-    }}
-}).mount("#ln-cm");
